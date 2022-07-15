@@ -1,6 +1,7 @@
 # web-dependencies-migration-tool
 A migration tool to import in Neo4j database dns paths and web access paths defined in the framework proposed in [1].
-
+## Requirements
+Neo4j server, Python (at least 2.5).
 ## Migration Tool
 The paper cited above provide a definition for a dependency graph that describes dependency relationships between entities of interest: websites, landing names, zones, nameservers, IP/24 address ranges and autonomous systems. In another work, the framework have been expanded also to mail domains and mail servers. 
 In these works, dependencies have been collected in the form of sqlite databases, with the following structure:
