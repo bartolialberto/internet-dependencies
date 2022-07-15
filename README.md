@@ -7,7 +7,7 @@ In these works, dependencies have been collected in the form of sqlite databases
 
 ![Database scheme](https://github.com/BoniFederico/web-dependencies-migration-tool/blob/main/db.jpg "Sqlite database scheme")
 
-This software is a migration tool (composed of 3 Jupiter notebook) that import a database with the above structure in the graph-based database Neo4j. 
+This software is a migration tool (composed of 3 Jupyter notebook) that import a database with the above structure in the graph-based database Neo4j. 
 
 ### Nodes:
 Final nodes name are the one described in the paper (except from landing_name nodes, that became web_server nodes):
@@ -33,7 +33,7 @@ Relationships are the one described in the paper (except from relationship betwe
 
 ## Configuration
 
-The 3 Jupiter notebooks in the project have to be executed in the order specified below.
+The 3 Jupyter notebooks in the project have to be executed in the order specified below.
 1. notebook_1 (from Sqlite database to csv files)
 2.  notebook_2 (from csv files to Neo4j database)
 3. notebook_3 (computation of path properties for each node)
